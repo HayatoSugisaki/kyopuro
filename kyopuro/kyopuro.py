@@ -3,6 +3,8 @@ from collections import deque
 def help():
     print("This is a personal library for programming contest by Hayato Sugisaki.")
 
+def hello():
+    print('hello')
 
 #幅優先探索で各頂点への最短距離を出す
 def shortpath(N_vertex, edge, start):
@@ -24,6 +26,8 @@ def shortpath(N_vertex, edge, start):
 
     return(distance)
 
+def hi():
+    print(hi)
 
 #幅優先探索で二部グラフか確かめる
 def checkbpt(N_vertex, edge):
