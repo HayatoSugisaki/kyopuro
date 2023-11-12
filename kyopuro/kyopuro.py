@@ -5,7 +5,7 @@ def help():
 
 
 #幅優先探索で各頂点への最短距離を出す
-def shortpass(N_vertex, edge, start):
+def shortpath(N_vertex, edge, start):
     
     checklist = deque([])
     visited = [0 for i in range(N_vertex)]
