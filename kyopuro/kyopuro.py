@@ -26,7 +26,7 @@ def shortpath(N_vertex, edge, start):
 
 
 #幅優先探索で二部グラフか確かめる
-def is_bipartite(N_vertex, edge):
+def checkbpt(N_vertex, edge):
     checklist = deque([])
     visited = [0 for i in range(N_vertex)]
     distance = [0 for i in range(N_vertex)]
