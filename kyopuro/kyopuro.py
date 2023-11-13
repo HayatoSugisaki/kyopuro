@@ -28,10 +28,11 @@ def shortpath(N_vertex, edge, start):
 def checkbpt(N_vertex, edge):
     checklist = deque([])
     visited = [0 for i in range(N_vertex)]
-    distance = [0 for i in range(N_vertex)]
+    distance = [-1 for i in range(N_vertex)]
     
     checklist.append(0)
     visited[0] = 1
+    distance[0] = -1
     
     while len(checklist) > 0:
         current = checklist.popleft()
